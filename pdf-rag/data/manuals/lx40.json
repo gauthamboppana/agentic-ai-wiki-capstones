@@ -1,0 +1,389 @@
+{
+ "doc_id": "lx40",
+ "title": "Corvel LX-40 Lighting Controller: User Guide",
+ "page_size": [
+  600,
+  800
+ ],
+ "pages": [
+  {
+   "page": 1,
+   "blocks": [
+    {
+     "kind": "heading",
+     "level": 2,
+     "bbox": [
+      310,
+      130,
+      560,
+      150
+     ],
+     "text": "2 Rear connections"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      250,
+      290,
+      330
+     ],
+     "text": "The status LED is green when DMX output is active, amber when output is paused and red when the controller has a fault."
+    },
+    {
+     "kind": "table",
+     "bbox": [
+      310,
+      160,
+      560,
+      400
+     ],
+     "caption": "Table 1: Rear connectors",
+     "header": [
+      "Connector",
+      "Type",
+      "Purpose"
+     ],
+     "rows": [
+      [
+       "DMX OUT A",
+       "5-pin XLR",
+       "Universe 1 output"
+      ],
+      [
+       "DMX OUT B",
+       "5-pin XLR",
+       "Universe 2 output"
+      ],
+      [
+       "NET",
+       "RJ45",
+       "Ethernet control and web configuration"
+      ],
+      [
+       "POWER",
+       "IEC C14",
+       "100 to 240 V AC input"
+      ],
+      [
+       "TRIG",
+       "3.5 mm jack",
+       "Contact closure trigger input"
+      ]
+     ]
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      770,
+      560,
+      785
+     ],
+     "text": "LX-40 user guide, firmware 2.3, page 1"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      80,
+      560,
+      120
+     ],
+     "text": "User guide, firmware 2.3. The LX-40 drives up to 40 DMX fixtures from one controller and stores up to 120 scenes."
+    },
+    {
+     "kind": "heading",
+     "level": 1,
+     "bbox": [
+      40,
+      40,
+      560,
+      70
+     ],
+     "text": "Corvel LX-40 Lighting Controller"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      160,
+      290,
+      240
+     ],
+     "text": "The rotary encoder selects menu items. Press and hold the encoder for 3 seconds to lock the front panel, and repeat to unlock it."
+    },
+    {
+     "kind": "heading",
+     "level": 2,
+     "bbox": [
+      40,
+      130,
+      290,
+      150
+     ],
+     "text": "1 Front panel"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "blocks": [
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      360,
+      560,
+      430
+     ],
+     "text": "A scene stores a level for every channel. To record a scene, set the levels, press RECORD, then choose a scene number from 1 to 120. Fade times between scenes range from 0 to 60 seconds."
+    },
+    {
+     "kind": "heading",
+     "level": 2,
+     "bbox": [
+      40,
+      330,
+      560,
+      350
+     ],
+     "text": "4 Scenes"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      310,
+      110,
+      560,
+      230
+     ],
+     "text": "The web interface user name is admin and there is no password until you set one. You must set a password of at least 10 characters before scenes can be edited over the network."
+    },
+    {
+     "kind": "heading",
+     "level": 3,
+     "bbox": [
+      310,
+      80,
+      560,
+      100
+     ],
+     "text": "3.1 Default credentials"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      190,
+      290,
+      300
+     ],
+     "text": "To switch to automatic addressing, open Settings, then Network, and set Address mode to DHCP. The controller restarts and shows its new address on the display."
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      80,
+      290,
+      180
+     ],
+     "text": "From the factory the controller uses the static address 192.168.10.40 with subnet mask 255.255.255.0. Connect a laptop on the same subnet and open the address in a web browser."
+    },
+    {
+     "kind": "heading",
+     "level": 2,
+     "bbox": [
+      40,
+      40,
+      560,
+      60
+     ],
+     "text": "3 Network setup"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      15,
+      560,
+      30
+     ],
+     "text": "LX-40 user guide, firmware 2.3"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      770,
+      560,
+      785
+     ],
+     "text": "LX-40 user guide, firmware 2.3, page 2"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "blocks": [
+    {
+     "kind": "text",
+     "bbox": [
+      310,
+      300,
+      560,
+      380
+     ],
+     "text": "To factory reset, hold the BACK and RECORD keys together while applying power, and keep them held for 10 seconds until the status LED flashes red."
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      300,
+      290,
+      360
+     ],
+     "text": "Parameters are saved immediately. A factory reset restores every parameter in Table 2 to its default."
+    },
+    {
+     "kind": "table",
+     "bbox": [
+      40,
+      80,
+      560,
+      270
+     ],
+     "caption": "Table 2: Configuration parameters",
+     "header": [
+      "Parameter",
+      "Default",
+      "Range",
+      "Notes"
+     ],
+     "rows": [
+      [
+       "DMX refresh rate",
+       "40 Hz",
+       "20 to 44 Hz",
+       "Lower the rate for long cable runs"
+      ],
+      [
+       "Startup scene",
+       "1",
+       "0 to 120",
+       "0 means blackout at power on"
+      ],
+      [
+       "Panel timeout",
+       "120 seconds",
+       "10 to 600 seconds",
+       "The screen dims after this time"
+      ],
+      [
+       "Trigger debounce",
+       "50 ms",
+       "10 to 500 ms",
+       "Raise it if the trigger input chatters"
+      ]
+     ]
+    },
+    {
+     "kind": "heading",
+     "level": 2,
+     "bbox": [
+      40,
+      40,
+      560,
+      60
+     ],
+     "text": "5 Configuration parameters"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      770,
+      560,
+      785
+     ],
+     "text": "LX-40 user guide, firmware 2.3, page 3"
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "blocks": [
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      300,
+      560,
+      350
+     ],
+     "text": "Terminate the last fixture on each DMX line with a 120 ohm resistor. Unterminated lines cause flicker on fixtures at the far end."
+    },
+    {
+     "kind": "table",
+     "bbox": [
+      40,
+      80,
+      560,
+      280
+     ],
+     "caption": "Table 3: LX-40 error messages",
+     "header": [
+      "Message",
+      "Cause",
+      "Remedy"
+     ],
+     "rows": [
+      [
+       "DMX SHORT",
+       "Short circuit on a DMX output",
+       "Disconnect fixtures one at a time to find the faulty cable"
+      ],
+      [
+       "NO LINK",
+       "Ethernet cable unplugged or switch port down",
+       "Check the NET cable and the switch port lights"
+      ],
+      [
+       "SCENE FULL",
+       "All 120 scene slots are used",
+       "Delete an unused scene before recording"
+      ],
+      [
+       "TEMP HIGH",
+       "Internal temperature above 55 °C",
+       "Improve ventilation around the controller"
+      ]
+     ]
+    },
+    {
+     "kind": "heading",
+     "level": 2,
+     "bbox": [
+      40,
+      40,
+      560,
+      60
+     ],
+     "text": "6 Troubleshooting"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      770,
+      560,
+      785
+     ],
+     "text": "LX-40 user guide, firmware 2.3, page 4"
+    }
+   ]
+  }
+ ]
+}

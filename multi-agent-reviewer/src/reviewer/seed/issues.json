@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ISSUE-1",
+    "title": "Slugs keep a trailing hyphen",
+    "body": "slugify('Blue Mug!') returns 'blue-mug-'. Punctuation at the end of a product name should not leave a hyphen behind.",
+    "labels": ["bug", "text"],
+    "tests": ["tests.test_textutil.SlugifyTests.test_no_trailing_hyphen"]
+  },
+  {
+    "id": "ISSUE-2",
+    "title": "Prices under ten pence are shown wrongly",
+    "body": "format_pence(105) shows '£1.5' instead of '£1.05'. The pence part needs padding to two digits.",
+    "labels": ["bug", "money"],
+    "tests": ["tests.test_money.MoneyTests.test_pads_single_digit_pence"]
+  },
+  {
+    "id": "ISSUE-3",
+    "title": "Cart discount takes off the wrong amount",
+    "body": "A cart with a 10 percent discount on a 1000 pence order totals 100 pence, not 900. The cart and the pricing rules disagree about the unit of the discount.",
+    "labels": ["bug", "money", "multi-file"],
+    "tests": ["tests.test_cart.CartTests.test_discount_percent_applied_to_total"]
+  },
+  {
+    "id": "ISSUE-4",
+    "title": "Cannot buy the last items in stock",
+    "body": "With 3 mugs in stock, adding 3 mugs to the cart should leave 0, but stock is not reserved for the full quantity and the stock check is off by one at the boundary.",
+    "labels": ["bug", "stock", "multi-file"],
+    "tests": ["tests.test_cart.CartTests.test_can_buy_last_items_in_stock"]
+  },
+  {
+    "id": "ISSUE-5",
+    "title": "Saturday is not treated as a weekend day",
+    "body": "is_weekend returns False for Saturdays, so weekend delivery slots are offered at weekday rates. Looks like a boundary comparison is off by one.",
+    "labels": ["bug", "dates"],
+    "tests": ["tests.test_dates.DateTests.test_saturday_is_weekend"]
+  }
+]

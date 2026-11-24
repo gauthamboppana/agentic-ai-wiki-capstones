@@ -1,0 +1,303 @@
+[
+ {
+  "id": "hand-01",
+  "source": "hand",
+  "question": "How long can the H-200 run dry before the mechanical seal is damaged?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "h200",
+    "page": 1,
+    "quote": "more than 60 seconds damages the mechanical seal"
+   }
+  ]
+ },
+ {
+  "id": "hand-02",
+  "source": "hand",
+  "question": "What residual current device rating does the H-200 need?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "h200",
+    "page": 1,
+    "quote": "30 mA residual current device"
+   }
+  ]
+ },
+ {
+  "id": "hand-03",
+  "source": "hand",
+  "question": "What is the minimum inlet pipe diameter for the H-200?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "h200",
+    "page": 2,
+    "quote": "at least 28 mm diameter"
+   }
+  ]
+ },
+ {
+  "id": "hand-04",
+  "source": "hand",
+  "question": "What does cavitation sound like on the booster pump?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "h200",
+    "page": 2,
+    "quote": "sounds like gravel passing through the casing"
+   }
+  ]
+ },
+ {
+  "id": "hand-05",
+  "source": "hand",
+  "question": "How do I prime the H-200 pump?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "h200",
+    "page": 2,
+    "quote": "fill the casing with clean water until it overflows"
+   }
+  ]
+ },
+ {
+  "id": "hand-06",
+  "source": "hand",
+  "question": "How far above the accumulator pre-charge should the cut-in pressure be set?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "h200",
+    "page": 3,
+    "quote": "0.2 bar above the accumulator pre-charge"
+   }
+  ]
+ },
+ {
+  "id": "hand-07",
+  "source": "hand",
+  "question": "How often should the H-200 accumulator pre-charge be checked?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "h200",
+    "page": 3,
+    "quote": "every 6 months"
+   }
+  ]
+ },
+ {
+  "id": "hand-08",
+  "source": "hand",
+  "question": "What is the part number of the H-200 mechanical seal kit?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "h200",
+    "page": 4,
+    "quote": "seal kit part number is HS-220"
+   }
+  ]
+ },
+ {
+  "id": "hand-09",
+  "source": "hand",
+  "question": "What should I do when the H-200 shows fault E02?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "h200",
+    "page": 4,
+    "quote": "Allow the motor to cool for 20 minutes"
+   }
+  ]
+ },
+ {
+  "id": "hand-10",
+  "source": "hand",
+  "question": "What is the factory IP address of the LX-40?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "lx40",
+    "page": 2,
+    "quote": "192.168.10.40"
+   }
+  ]
+ },
+ {
+  "id": "hand-11",
+  "source": "hand",
+  "question": "How do I lock the front panel on the LX-40?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "lx40",
+    "page": 1,
+    "quote": "Press and hold the encoder for 3 seconds to lock the front panel"
+   }
+  ]
+ },
+ {
+  "id": "hand-12",
+  "source": "hand",
+  "question": "How long must the LX-40 web password be?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "lx40",
+    "page": 2,
+    "quote": "at least 10 characters"
+   }
+  ]
+ },
+ {
+  "id": "hand-13",
+  "source": "hand",
+  "question": "How do I factory reset the LX-40 controller?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "lx40",
+    "page": 3,
+    "quote": "hold the BACK and RECORD keys together while applying power"
+   }
+  ]
+ },
+ {
+  "id": "hand-14",
+  "source": "hand",
+  "question": "Why do fixtures at the far end of a DMX line flicker?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "lx40",
+    "page": 4,
+    "quote": "Unterminated lines cause flicker"
+   }
+  ]
+ },
+ {
+  "id": "hand-15",
+  "source": "hand",
+  "question": "What supply voltage does the TG-7 gateway accept?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "tg7",
+    "page": 1,
+    "quote": "12 to 48 V DC"
+   }
+  ]
+ },
+ {
+  "id": "hand-16",
+  "source": "hand",
+  "question": "What is the default polling interval on the TG-7?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "tg7",
+    "page": 2,
+    "quote": "The default interval is 30 seconds"
+   }
+  ]
+ },
+ {
+  "id": "hand-17",
+  "source": "hand",
+  "question": "How long does the TG-7 buffer readings when both backhaul links are down?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "tg7",
+    "page": 2,
+    "quote": "up to 72 hours"
+   }
+  ]
+ },
+ {
+  "id": "hand-18",
+  "source": "hand",
+  "question": "What happens if a new TG-7 firmware image fails to boot?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "tg7",
+    "page": 3,
+    "quote": "rolls back to the previous image automatically"
+   }
+  ]
+ },
+ {
+  "id": "hand-19",
+  "source": "hand",
+  "question": "Which devices need a 120 ohm termination at the end of the line?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "lx40",
+    "page": 4,
+    "quote": "120 ohm resistor"
+   },
+   {
+    "doc": "tg7",
+    "page": 2,
+    "quote": "120 ohm termination jumper J4"
+   }
+  ]
+ },
+ {
+  "id": "hand-20",
+  "source": "hand",
+  "question": "What is the warranty period for the LX-40?",
+  "answerable": false,
+  "evidence": []
+ },
+ {
+  "id": "hand-21",
+  "source": "hand",
+  "question": "Does the TG-7 support LoRaWAN sensors?",
+  "answerable": false,
+  "evidence": []
+ },
+ {
+  "id": "hand-22",
+  "source": "hand",
+  "question": "How do I update the firmware on the H-200 pump?",
+  "answerable": false,
+  "evidence": []
+ },
+ {
+  "id": "hand-23",
+  "source": "hand",
+  "question": "What colour is the H-200 motor casing?",
+  "answerable": false,
+  "evidence": []
+ },
+ {
+  "id": "hand-24",
+  "source": "hand",
+  "question": "What is the IP rating of the LX-40 enclosure?",
+  "answerable": false,
+  "evidence": []
+ },
+ {
+  "id": "hand-25",
+  "source": "hand",
+  "question": "How many DMX universes can the TG-7 gateway drive?",
+  "answerable": false,
+  "evidence": []
+ },
+ {
+  "id": "hand-26",
+  "source": "hand",
+  "question": "Which mobile app controls the H-200 remotely?",
+  "answerable": false,
+  "evidence": []
+ }
+]

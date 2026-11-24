@@ -1,0 +1,30 @@
+[project]
+name = "production-hardening"
+version = "0.1.0"
+description = "Reference solution: hardening an issue-resolving agent for production (tracing, cost controls, guardrails, dual-LLM separation, audit log, eval gate)."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+# Mirror the built-in spans into the OpenTelemetry SDK and ship them with the OTLP exporter.
+otel = [
+  "opentelemetry-sdk>=1.25",
+  "opentelemetry-exporter-otlp-proto-http>=1.25",
+]
+
+[project.scripts]
+hardening = "hardening.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hardening"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

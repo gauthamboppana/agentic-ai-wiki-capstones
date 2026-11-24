@@ -1,0 +1,29 @@
+# Sample workflow. Copy it to .github/workflows/ at the root of your repository and adjust
+# working-directory. It needs no secrets: the suite runs on the deterministic fake models.
+name: eval-gate
+on:
+  pull_request:
+    paths: ["production-hardening/**"]
+  push:
+    branches: [main]
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: production-hardening
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --locked
+      - run: uv run pytest -q
+      - name: Trajectory eval gate (fails the job on a regression)
+        run: uv run python scripts/ci_gate.py
+      - name: Keep the trace and audit log from the demo run
+        if: always()
+        run: uv run python -m hardening.cli demo
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: hardening-run
+          path: production-hardening/out/

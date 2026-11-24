@@ -1,0 +1,314 @@
+[
+ {
+  "id": "syn-01",
+  "source": "synthetic",
+  "question": "What is the value for parameter Maximum inlet pressure on the H-200?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "h200",
+    "page": 1,
+    "quote": "Value: 4 bar"
+   }
+  ]
+ },
+ {
+  "id": "syn-02",
+  "source": "synthetic",
+  "question": "What is the value for parameter Water temperature range on the H-200?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "h200",
+    "page": 1,
+    "quote": "Value: 2 to 40 °C"
+   }
+  ]
+ },
+ {
+  "id": "syn-03",
+  "source": "synthetic",
+  "question": "What is the value for parameter Weight on the H-200?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "h200",
+    "page": 1,
+    "quote": "Value: 11.5 kg"
+   }
+  ]
+ },
+ {
+  "id": "syn-04",
+  "source": "synthetic",
+  "question": "What is the cut-in pressure for building type Bungalow on the H-200?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "h200",
+    "page": 3,
+    "quote": "Cut-in pressure: 1.5 bar"
+   }
+  ]
+ },
+ {
+  "id": "syn-05",
+  "source": "synthetic",
+  "question": "What is the cut-out pressure for building type Three-storey house on the H-200?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "h200",
+    "page": 3,
+    "quote": "Cut-out pressure: 3.5 bar"
+   }
+  ]
+ },
+ {
+  "id": "syn-06",
+  "source": "synthetic",
+  "question": "What is the accumulator pre-charge for building type Two-storey house on the H-200?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "h200",
+    "page": 3,
+    "quote": "Accumulator pre-charge: 1.8 bar"
+   }
+  ]
+ },
+ {
+  "id": "syn-07",
+  "source": "synthetic",
+  "question": "What is the meaning for code E05 on the H-200?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "h200",
+    "page": 4,
+    "quote": "Meaning: Supply voltage too low"
+   }
+  ]
+ },
+ {
+  "id": "syn-08",
+  "source": "synthetic",
+  "question": "What is the action for code E12 on the H-200?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "h200",
+    "page": 4,
+    "quote": "Action: Replace the pressure sensor, part number HS-112."
+   }
+  ]
+ },
+ {
+  "id": "syn-09",
+  "source": "synthetic",
+  "question": "What is the type for connector NET on the LX-40?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "lx40",
+    "page": 1,
+    "quote": "Type: RJ45"
+   }
+  ]
+ },
+ {
+  "id": "syn-10",
+  "source": "synthetic",
+  "question": "What is the purpose for connector POWER on the LX-40?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "lx40",
+    "page": 1,
+    "quote": "Purpose: 100 to 240 V AC input"
+   }
+  ]
+ },
+ {
+  "id": "syn-11",
+  "source": "synthetic",
+  "question": "What is the type for connector TRIG on the LX-40?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "lx40",
+    "page": 1,
+    "quote": "Type: 3.5 mm jack"
+   }
+  ]
+ },
+ {
+  "id": "syn-12",
+  "source": "synthetic",
+  "question": "What is the range for parameter Panel timeout on the LX-40?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "lx40",
+    "page": 3,
+    "quote": "Range: 10 to 600 seconds"
+   }
+  ]
+ },
+ {
+  "id": "syn-13",
+  "source": "synthetic",
+  "question": "What is the default for parameter Startup scene on the LX-40?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "lx40",
+    "page": 3,
+    "quote": "Default: 1"
+   }
+  ]
+ },
+ {
+  "id": "syn-14",
+  "source": "synthetic",
+  "question": "What is the range for parameter Trigger debounce on the LX-40?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "lx40",
+    "page": 3,
+    "quote": "Range: 10 to 500 ms"
+   }
+  ]
+ },
+ {
+  "id": "syn-15",
+  "source": "synthetic",
+  "question": "What is the cause for message NO LINK on the LX-40?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "lx40",
+    "page": 4,
+    "quote": "Cause: Ethernet cable unplugged or switch port down"
+   }
+  ]
+ },
+ {
+  "id": "syn-16",
+  "source": "synthetic",
+  "question": "What is the remedy for message SCENE FULL on the LX-40?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "lx40",
+    "page": 4,
+    "quote": "Remedy: Delete an unused scene before recording"
+   }
+  ]
+ },
+ {
+  "id": "syn-17",
+  "source": "synthetic",
+  "question": "What is the pattern for light BUS on the TG-7?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "tg7",
+    "page": 1,
+    "quote": "Pattern: Fast blink amber"
+   }
+  ]
+ },
+ {
+  "id": "syn-18",
+  "source": "synthetic",
+  "question": "What is the meaning for light ERR on the TG-7?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "tg7",
+    "page": 1,
+    "quote": "Meaning: Configuration error, see the event log"
+   }
+  ]
+ },
+ {
+  "id": "syn-19",
+  "source": "synthetic",
+  "question": "What is the pattern for light NET on the TG-7?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "tg7",
+    "page": 1,
+    "quote": "Pattern: Slow blink"
+   }
+  ]
+ },
+ {
+  "id": "syn-20",
+  "source": "synthetic",
+  "question": "What is the meaning for light PWR on the TG-7?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "tg7",
+    "page": 1,
+    "quote": "Meaning: Power good"
+   }
+  ]
+ },
+ {
+  "id": "syn-21",
+  "source": "synthetic",
+  "question": "What is the meaning for event 101 on the TG-7?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "tg7",
+    "page": 3,
+    "quote": "Meaning: Gateway started"
+   }
+  ]
+ },
+ {
+  "id": "syn-22",
+  "source": "synthetic",
+  "question": "What is the severity for event 204 on the TG-7?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "tg7",
+    "page": 3,
+    "quote": "Severity: Warning"
+   }
+  ]
+ },
+ {
+  "id": "syn-23",
+  "source": "synthetic",
+  "question": "What is the meaning for event 310 on the TG-7?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "tg7",
+    "page": 3,
+    "quote": "Meaning: Backhaul switched to cellular"
+   }
+  ]
+ },
+ {
+  "id": "syn-24",
+  "source": "synthetic",
+  "question": "What is the severity for event 415 on the TG-7?",
+  "answerable": true,
+  "evidence": [
+   {
+    "doc": "tg7",
+    "page": 3,
+    "quote": "Severity: Critical"
+   }
+  ]
+ }
+]

@@ -1,0 +1,372 @@
+{
+ "doc_id": "tg7",
+ "title": "Tarnwick TG-7 Field Gateway: Administrator Guide",
+ "page_size": [
+  600,
+  800
+ ],
+ "pages": [
+  {
+   "page": 1,
+   "blocks": [
+    {
+     "kind": "table",
+     "bbox": [
+      310,
+      160,
+      560,
+      380
+     ],
+     "caption": "Table 1: Status lights",
+     "header": [
+      "Light",
+      "Pattern",
+      "Meaning"
+     ],
+     "rows": [
+      [
+       "PWR",
+       "Steady green",
+       "Power good"
+      ],
+      [
+       "NET",
+       "Slow blink",
+       "Searching for backhaul"
+      ],
+      [
+       "CELL",
+       "Steady green",
+       "Cellular modem registered"
+      ],
+      [
+       "BUS",
+       "Fast blink amber",
+       "Modbus traffic"
+      ],
+      [
+       "ERR",
+       "Steady red",
+       "Configuration error, see the event log"
+      ]
+     ]
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      250,
+      290,
+      340
+     ],
+     "text": "An internal supercapacitor keeps the clock and the last 15 minutes of buffered readings alive for 90 seconds after power loss."
+    },
+    {
+     "kind": "heading",
+     "level": 1,
+     "bbox": [
+      40,
+      40,
+      560,
+      70
+     ],
+     "text": "Tarnwick TG-7 Field Gateway"
+    },
+    {
+     "kind": "heading",
+     "level": 2,
+     "bbox": [
+      310,
+      130,
+      560,
+      150
+     ],
+     "text": "2 Status lights"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      160,
+      290,
+      240
+     ],
+     "text": "The gateway accepts 12 to 48 V DC on the screw terminal block. Typical consumption is 4 W, rising to 7 W while the cellular modem transmits."
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      770,
+      560,
+      785
+     ],
+     "text": "TG-7 administrator guide, release 4.1, page 1"
+    },
+    {
+     "kind": "heading",
+     "level": 2,
+     "bbox": [
+      40,
+      130,
+      290,
+      150
+     ],
+     "text": "1 Power"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      80,
+      560,
+      120
+     ],
+     "text": "Administrator guide, release 4.1. The TG-7 collects readings from up to 64 Modbus sensors and forwards them to a central server over cellular or Ethernet backhaul."
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "blocks": [
+    {
+     "kind": "heading",
+     "level": 2,
+     "bbox": [
+      40,
+      40,
+      560,
+      60
+     ],
+     "text": "3 Sensor bus"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      310,
+      200,
+      560,
+      280
+     ],
+     "text": "A sensor that misses 3 polls in a row is marked offline and raises event 204 in the event log."
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      360,
+      560,
+      420
+     ],
+     "text": "The gateway prefers Ethernet when a cable is connected and falls back to cellular after 60 seconds without a link. Readings are buffered on the gateway for up to 72 hours while both links are down."
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      80,
+      290,
+      180
+     ],
+     "text": "Connect sensors to the RS-485 terminals A, B and GND in a daisy chain. Fit the 120 ohm termination jumper J4 on the gateway if it sits at one end of the bus."
+    },
+    {
+     "kind": "heading",
+     "level": 3,
+     "bbox": [
+      310,
+      80,
+      560,
+      100
+     ],
+     "text": "3.1 Polling"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      310,
+      110,
+      560,
+      190
+     ],
+     "text": "The gateway polls every sensor once per polling interval. The default interval is 30 seconds and the shortest allowed interval is 5 seconds."
+    },
+    {
+     "kind": "heading",
+     "level": 2,
+     "bbox": [
+      40,
+      330,
+      560,
+      350
+     ],
+     "text": "4 Backhaul"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      190,
+      290,
+      250
+     ],
+     "text": "The default serial settings are 9600 baud, 8 data bits, no parity and 1 stop bit."
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      770,
+      560,
+      785
+     ],
+     "text": "TG-7 administrator guide, release 4.1, page 2"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "blocks": [
+    {
+     "kind": "table",
+     "bbox": [
+      40,
+      250,
+      560,
+      420
+     ],
+     "caption": "Table 2: Event codes",
+     "header": [
+      "Event",
+      "Meaning",
+      "Severity"
+     ],
+     "rows": [
+      [
+       "101",
+       "Gateway started",
+       "Information"
+      ],
+      [
+       "204",
+       "Sensor offline",
+       "Warning"
+      ],
+      [
+       "310",
+       "Backhaul switched to cellular",
+       "Information"
+      ],
+      [
+       "415",
+       "Firmware signature check failed",
+       "Critical"
+      ],
+      [
+       "502",
+       "Buffer more than 90 percent full",
+       "Warning"
+      ]
+     ]
+    },
+    {
+     "kind": "heading",
+     "level": 2,
+     "bbox": [
+      40,
+      40,
+      560,
+      60
+     ],
+     "text": "5 Firmware updates"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      160,
+      560,
+      220
+     ],
+     "text": "The gateway keeps the previous firmware in a second slot. If the new image fails to boot three times, the gateway rolls back to the previous image automatically."
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      80,
+      560,
+      150
+     ],
+     "text": "Download the signed firmware image to a USB drive formatted as FAT32. Insert the drive, open Maintenance, then Update, and select the image. Do not remove power during the update, which takes about 4 minutes."
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      770,
+      560,
+      785
+     ],
+     "text": "TG-7 administrator guide, release 4.1, page 3"
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "blocks": [
+    {
+     "kind": "text",
+     "bbox": [
+      310,
+      80,
+      560,
+      160
+     ],
+     "text": "Certificates for the server connection are rotated every 90 days. The gateway sends a warning to the server 14 days before a certificate expires."
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      170,
+      290,
+      260
+     ],
+     "text": "Remote shell access is disabled by default. Enable it under Security, then Remote access, and it switches itself off again after 8 hours."
+    },
+    {
+     "kind": "heading",
+     "level": 2,
+     "bbox": [
+      40,
+      40,
+      560,
+      60
+     ],
+     "text": "6 Security"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      80,
+      290,
+      160
+     ],
+     "text": "Change the default administrator password on first login. Passwords must be at least 12 characters and are stored as salted hashes."
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      770,
+      560,
+      785
+     ],
+     "text": "TG-7 administrator guide, release 4.1, page 4"
+    }
+   ]
+  }
+ ]
+}

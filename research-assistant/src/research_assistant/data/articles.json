@@ -1,0 +1,216 @@
+[
+  {
+    "id": "a01",
+    "title": "Harbour town trials tidal power",
+    "text": "The coastal town of Penmarrow switched on a small tidal turbine in March 2026. The project is run by Northwind Energy and the Penmarrow Harbour Trust. Engineer Ada Kowalski said the turbine produced enough electricity for forty homes during its first month. Local fishermen worried about noise, so the trust agreed to publish monthly readings. If the trial goes well, a second turbine could follow in 2027.",
+    "expected_entities": [
+      "Penmarrow",
+      "Northwind Energy",
+      "Penmarrow Harbour Trust",
+      "Ada Kowalski"
+    ]
+  },
+  {
+    "id": "a02",
+    "title": "Library lends out seeds",
+    "text": "Brindle Public Library has started lending vegetable seeds alongside books. Librarian Tomas Okafor said borrowers return a share of the seeds they harvest, so the collection grows each year. The scheme began in April 2026 with help from the Greenway Allotment Society. Tomatoes and beans proved most popular. The library now plans workshops on saving seeds from squash.",
+    "expected_entities": [
+      "Brindle Public Library",
+      "Tomas Okafor",
+      "Greenway Allotment Society"
+    ]
+  },
+  {
+    "id": "a03",
+    "title": "Rail line reopens after forty years",
+    "text": "The branch line between Ashcombe and Fenley reopened to passengers in May 2026. Valley Rail Partnership spent three years restoring bridges and stations. Passenger numbers in the first week were double the forecast, according to manager Priya Raman. Commuters said the journey to Fenley now takes twenty minutes instead of an hour by bus. The partnership warned that winter timetables may be thinner.",
+    "expected_entities": [
+      "Ashcombe",
+      "Fenley",
+      "Valley Rail Partnership",
+      "Priya Raman"
+    ]
+  },
+  {
+    "id": "a04",
+    "title": "School swaps exams for projects",
+    "text": "Kestrel Academy in Lowmoor replaced end of year exams with group projects for pupils aged twelve and thirteen. Head teacher Graham Ellis said attendance rose and fewer pupils reported stress. Critics, including the Lowmoor Parents Forum, asked how the projects would be marked fairly. The school published a marking guide in June 2026 and invited parents to review it.",
+    "expected_entities": [
+      "Kestrel Academy",
+      "Lowmoor",
+      "Graham Ellis",
+      "Lowmoor Parents Forum"
+    ]
+  },
+  {
+    "id": "a05",
+    "title": "Bakery cuts waste with an app",
+    "text": "Crumb and Co, a bakery chain with six shops in Hartwell, now sells unsold loaves at half price through a phone app each evening. Owner Lena Fischer said food waste fell by sixty per cent in three months. The app was built by Hartwell College students as a summer project. Other shops in the high street have asked to join.",
+    "expected_entities": [
+      "Crumb and Co",
+      "Hartwell",
+      "Lena Fischer",
+      "Hartwell College"
+    ]
+  },
+  {
+    "id": "a06",
+    "title": "Wetland returns for wading birds",
+    "text": "Farmers near Sedge Marsh flooded twelve fields to bring back a lost wetland. The Riverlands Wildlife Trust counted three hundred wading birds in February 2026, up from fewer than fifty two years earlier. Farmer Owen Pryce is paid to keep the fields wet in winter. The trust says the wetland also stores flood water that once reached the village of Marlow End.",
+    "expected_entities": [
+      "Sedge Marsh",
+      "Riverlands Wildlife Trust",
+      "Owen Pryce",
+      "Marlow End"
+    ]
+  },
+  {
+    "id": "a07",
+    "title": "Hospital tests quiet wards",
+    "text": "St Aldric Hospital in Greyford dimmed lights and silenced alarms at night on two wards as a trial. Nurses now receive alerts on pagers instead. Dr Miriam Achebe said patients slept an average of ninety minutes longer. The trial ran from January to April 2026. Greyford Health Board will decide in the autumn whether to extend it to every ward.",
+    "expected_entities": [
+      "St Aldric Hospital",
+      "Greyford",
+      "Miriam Achebe",
+      "Greyford Health Board"
+    ]
+  },
+  {
+    "id": "a08",
+    "title": "Village shop becomes a cooperative",
+    "text": "When the only shop in Little Hendon was due to close, residents bought it. More than two hundred people paid for shares in the Hendon Community Store. Chair Rosa Delgado said the shop broke even in its first year. Volunteers cover half of the opening hours. The cooperative now stocks bread from a farm in nearby Oakridge.",
+    "expected_entities": [
+      "Little Hendon",
+      "Hendon Community Store",
+      "Rosa Delgado",
+      "Oakridge"
+    ]
+  },
+  {
+    "id": "a09",
+    "title": "City trials four day week",
+    "text": "Calder City Council moved two hundred office staff to a four day week for six months. Researchers at Calder University found output stayed level while sick days fell by a quarter. Union representative Ben Hollis welcomed the results but asked for the trial to include depot workers. The council will vote on the scheme in December 2026.",
+    "expected_entities": [
+      "Calder City Council",
+      "Calder University",
+      "Ben Hollis"
+    ]
+  },
+  {
+    "id": "a10",
+    "title": "Museum returns carved panels",
+    "text": "The Westgate Museum has returned four carved wooden panels to the island of Taluma. Curator Helen Marsh said records showed the panels were taken without consent in 1911. A delegation from the Taluma Heritage Council received them in a ceremony in July 2026. The museum is reviewing three hundred other objects in its collection.",
+    "expected_entities": [
+      "Westgate Museum",
+      "Taluma",
+      "Helen Marsh",
+      "Taluma Heritage Council"
+    ]
+  },
+  {
+    "id": "a11",
+    "title": "Startup recycles old batteries",
+    "text": "Voltloop, a startup based in Dunmere, recovers lithium and cobalt from old laptop batteries. Founder Sanjay Mehta said the process uses water rather than heat, which cuts energy use. The company signed a supply deal with Arden Motors in August 2026. Independent tests by the Dunmere Materials Lab confirmed recovery rates above ninety per cent.",
+    "expected_entities": [
+      "Voltloop",
+      "Dunmere",
+      "Sanjay Mehta",
+      "Arden Motors",
+      "Dunmere Materials Lab"
+    ]
+  },
+  {
+    "id": "a12",
+    "title": "Ferry goes electric",
+    "text": "The ferry between Skelly Island and the mainland port of Rhossan now runs on batteries. Island Ferries Ltd charges the vessel overnight from a solar farm on the island. Captain Moira Grant said passengers notice how quiet the crossing has become. Fuel savings will repay the conversion in about seven years, the company estimates.",
+    "expected_entities": [
+      "Skelly Island",
+      "Rhossan",
+      "Island Ferries Ltd",
+      "Moira Grant"
+    ]
+  },
+  {
+    "id": "a13",
+    "title": "Rugby club opens a food bank",
+    "text": "Thornbury Rugby Club turned its clubhouse into a food bank on Tuesday evenings. Captain Jake Morrow said players collect donations after matches. The Thornbury Food Network supplies fresh fruit each week. Organisers report that around eighty families use the service, many of them working parents. The club hopes to add a homework club in the new year.",
+    "expected_entities": [
+      "Thornbury Rugby Club",
+      "Jake Morrow",
+      "Thornbury Food Network"
+    ]
+  },
+  {
+    "id": "a14",
+    "title": "Drone surveys count seals",
+    "text": "Researchers from the Northern Coast Institute used drones to count grey seals on the Farrow Sands in winter 2025. Lead scientist Ingrid Solberg said the count found two thousand pups, a record for the colony. Drones disturb the animals less than boat surveys. The team shares its images with Farrow District Council to plan footpath closures.",
+    "expected_entities": [
+      "Northern Coast Institute",
+      "Farrow Sands",
+      "Ingrid Solberg",
+      "Farrow District Council"
+    ]
+  },
+  {
+    "id": "a15",
+    "title": "Market town bans cars on Saturdays",
+    "text": "Elmsford closed its market square to cars every Saturday from June 2026. The Elmsford Traders Association first opposed the plan but now reports busier stalls. Councillor Amir Haddad said cycle parking has doubled. Some older residents asked for a shuttle bus, and the council is testing one from the Elmsford railway station.",
+    "expected_entities": [
+      "Elmsford",
+      "Elmsford Traders Association",
+      "Amir Haddad"
+    ]
+  },
+  {
+    "id": "a16",
+    "title": "Choir helps lung patients",
+    "text": "A singing group for people with lung conditions meets weekly at Bramley Community Hall. Physiotherapist Chloe Barnes started the choir with support from the Bramley Breathing Trust. Members say singing helps them control their breathing. A small study by Wexham University in 2026 found members were less breathless after six months, though the authors call for a larger trial.",
+    "expected_entities": [
+      "Bramley Community Hall",
+      "Chloe Barnes",
+      "Bramley Breathing Trust",
+      "Wexham University"
+    ]
+  },
+  {
+    "id": "a17",
+    "title": "Old mill makes flour again",
+    "text": "Ludford Mill ground its first flour in sixty years after a restoration led by the Ludford Mill Society. Miller Dan Whitaker learned the trade from records kept at the county archive. The mill sells flour to two bakeries in Ludford and to visitors. The society says it needs more volunteers to keep the water wheel running through the winter.",
+    "expected_entities": [
+      "Ludford Mill",
+      "Ludford Mill Society",
+      "Dan Whitaker",
+      "Ludford"
+    ]
+  },
+  {
+    "id": "a18",
+    "title": "Port tests hydrogen cranes",
+    "text": "The Port of Caddon is testing two cranes powered by hydrogen fuel cells. Operations director Fiona Leung said the cranes cut diesel use at the container terminal by a fifth. The fuel comes from an electrolyser run by Caddon Green Gas. The port will publish safety results in March 2027 before deciding whether to buy more.",
+    "expected_entities": [
+      "Port of Caddon",
+      "Fiona Leung",
+      "Caddon Green Gas"
+    ]
+  },
+  {
+    "id": "a19",
+    "title": "Council plants pocket forests",
+    "text": "Merriton Borough Council planted six pocket forests on former car parks, each about the size of a tennis court. Ecologist Noah Feld said the dense planting grows quickly and cools nearby streets on hot days. Pupils from Merriton Primary School helped plant three thousand saplings in November 2025. Residents will help water the trees during their first two summers.",
+    "expected_entities": [
+      "Merriton Borough Council",
+      "Noah Feld",
+      "Merriton Primary School"
+    ]
+  },
+  {
+    "id": "a20",
+    "title": "Repair cafe fixes a thousand items",
+    "text": "The repair cafe at Oldcastle Library has mended its thousandth item, a fifty year old radio. Volunteer Grace Adeyemi said toasters, lamps and bicycles are the most common repairs. The cafe opens once a month and is funded by the Oldcastle Civic Fund. Organisers estimate it has kept four tonnes of goods out of landfill since 2023.",
+    "expected_entities": [
+      "Oldcastle Library",
+      "Grace Adeyemi",
+      "Oldcastle Civic Fund"
+    ]
+  }
+]

@@ -1,0 +1,421 @@
+{
+ "doc_id": "h200",
+ "title": "Halden H-200 Booster Pump: Installation and Service Manual",
+ "page_size": [
+  600,
+  800
+ ],
+ "pages": [
+  {
+   "page": 1,
+   "blocks": [
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      770,
+      560,
+      785
+     ],
+     "text": "H-200 manual, revision C, page 1"
+    },
+    {
+     "kind": "table",
+     "bbox": [
+      310,
+      160,
+      560,
+      380
+     ],
+     "caption": "Table 1: H-200 specifications",
+     "header": [
+      "Parameter",
+      "Value"
+     ],
+     "rows": [
+      [
+       "Rated power",
+       "0.75 kW"
+      ],
+      [
+       "Supply voltage",
+       "230 V AC, 50 Hz"
+      ],
+      [
+       "Maximum flow",
+       "60 litres per minute"
+      ],
+      [
+       "Maximum head",
+       "42 metres"
+      ],
+      [
+       "Maximum inlet pressure",
+       "4 bar"
+      ],
+      [
+       "Water temperature range",
+       "2 to 40 °C"
+      ],
+      [
+       "Weight",
+       "11.5 kg"
+      ]
+     ]
+    },
+    {
+     "kind": "heading",
+     "level": 2,
+     "bbox": [
+      40,
+      130,
+      290,
+      150
+     ],
+     "text": "1 Safety"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      260,
+      290,
+      340
+     ],
+     "text": "Never run the pump dry. Dry running for more than 60 seconds damages the mechanical seal and voids the seal guarantee."
+    },
+    {
+     "kind": "heading",
+     "level": 1,
+     "bbox": [
+      40,
+      40,
+      560,
+      70
+     ],
+     "text": "Halden H-200 Booster Pump"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      160,
+      290,
+      250
+     ],
+     "text": "Isolate the mains supply at the consumer unit before opening the terminal cover. The pump must be connected through a 30 mA residual current device."
+    },
+    {
+     "kind": "heading",
+     "level": 2,
+     "bbox": [
+      310,
+      130,
+      560,
+      150
+     ],
+     "text": "2 Specifications"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      80,
+      560,
+      120
+     ],
+     "text": "Installation and Service Manual, revision C. This manual covers the H-200 single-stage booster pump for domestic and light commercial water supply."
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "blocks": [
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      15,
+      560,
+      30
+     ],
+     "text": "H-200 manual, revision C"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      310,
+      110,
+      560,
+      200
+     ],
+     "text": "Use inlet pipe of at least 28 mm diameter. Smaller inlet pipe starves the pump and causes cavitation, which sounds like gravel passing through the casing."
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      80,
+      290,
+      170
+     ],
+     "text": "Mount the pump on a level concrete plinth or the supplied anti-vibration feet, in a frost-free room with at least 300 mm clearance around the motor fan cover."
+    },
+    {
+     "kind": "heading",
+     "level": 2,
+     "bbox": [
+      40,
+      330,
+      560,
+      350
+     ],
+     "text": "4 Priming"
+    },
+    {
+     "kind": "heading",
+     "level": 3,
+     "bbox": [
+      310,
+      80,
+      560,
+      100
+     ],
+     "text": "3.1 Pipework"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      360,
+      560,
+      440
+     ],
+     "text": "Remove the priming plug on top of the pump casing and fill the casing with clean water until it overflows. Refit the plug hand tight, open both isolating valves and switch on. If no water flows within 30 seconds, switch off and repeat the priming."
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      180,
+      290,
+      300
+     ],
+     "text": "Fit a full-bore isolating valve on both the inlet and the outlet, and a non-return valve on the inlet side so that the pump stays primed between runs."
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      310,
+      210,
+      560,
+      300
+     ],
+     "text": "Keep the inlet run shorter than 10 metres and avoid high points where air can collect."
+    },
+    {
+     "kind": "heading",
+     "level": 2,
+     "bbox": [
+      40,
+      40,
+      560,
+      60
+     ],
+     "text": "3 Installation"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      770,
+      560,
+      785
+     ],
+     "text": "H-200 manual, revision C, page 2"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "blocks": [
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      330,
+      560,
+      370
+     ],
+     "text": "Check the accumulator pre-charge every 6 months with the pump switched off and the system drained of pressure."
+    },
+    {
+     "kind": "heading",
+     "level": 2,
+     "bbox": [
+      40,
+      40,
+      560,
+      60
+     ],
+     "text": "5 Pressure switch settings"
+    },
+    {
+     "kind": "table",
+     "bbox": [
+      40,
+      160,
+      560,
+      310
+     ],
+     "caption": "Table 2: Recommended pressure settings",
+     "header": [
+      "Building type",
+      "Cut-in pressure",
+      "Cut-out pressure",
+      "Accumulator pre-charge"
+     ],
+     "rows": [
+      [
+       "Bungalow",
+       "1.5 bar",
+       "2.5 bar",
+       "1.3 bar"
+      ],
+      [
+       "Two-storey house",
+       "2.0 bar",
+       "3.0 bar",
+       "1.8 bar"
+      ],
+      [
+       "Three-storey house",
+       "2.5 bar",
+       "3.5 bar",
+       "2.3 bar"
+      ]
+     ]
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      80,
+      560,
+      140
+     ],
+     "text": "The pressure switch starts the pump when system pressure falls to the cut-in value and stops it at the cut-out value. Set the cut-in pressure 0.2 bar above the accumulator pre-charge."
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      770,
+      560,
+      785
+     ],
+     "text": "H-200 manual, revision C, page 3"
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "blocks": [
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      770,
+      560,
+      785
+     ],
+     "text": "H-200 manual, revision C, page 4"
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      310,
+      330,
+      560,
+      420
+     ],
+     "text": "Replace the mechanical seal every 5 years or after any dry running event. The seal kit part number is HS-220."
+    },
+    {
+     "kind": "heading",
+     "level": 2,
+     "bbox": [
+      40,
+      300,
+      290,
+      320
+     ],
+     "text": "7 Maintenance"
+    },
+    {
+     "kind": "table",
+     "bbox": [
+      40,
+      80,
+      560,
+      280
+     ],
+     "caption": "Table 3: H-200 fault codes",
+     "header": [
+      "Code",
+      "Meaning",
+      "Action"
+     ],
+     "rows": [
+      [
+       "E01",
+       "Dry running detected",
+       "Check the inlet supply and prime the pump."
+      ],
+      [
+       "E02",
+       "Motor overtemperature",
+       "Allow the motor to cool for 20 minutes and check the fan cover is clear."
+      ],
+      [
+       "E05",
+       "Supply voltage too low",
+       "Check the supply is above 207 V."
+      ],
+      [
+       "E12",
+       "Pressure sensor fault",
+       "Replace the pressure sensor, part number HS-112."
+      ],
+      [
+       "E20",
+       "Excessive starts per hour",
+       "Check the accumulator pre-charge and look for leaks."
+      ]
+     ]
+    },
+    {
+     "kind": "text",
+     "bbox": [
+      40,
+      330,
+      290,
+      420
+     ],
+     "text": "Clean the inlet strainer every 3 months. Close the inlet isolating valve, unscrew the strainer cap and rinse the mesh under running water."
+    },
+    {
+     "kind": "heading",
+     "level": 2,
+     "bbox": [
+      40,
+      40,
+      560,
+      60
+     ],
+     "text": "6 Fault codes"
+    }
+   ]
+  }
+ ]
+}

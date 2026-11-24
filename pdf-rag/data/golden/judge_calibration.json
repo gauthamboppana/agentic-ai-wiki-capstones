@@ -1,0 +1,110 @@
+[
+ {
+  "claim": "The maximum head is 42 metres.",
+  "evidence": "Parameter: Maximum head; Value: 42 metres.\nParameter: Maximum inlet pressure; Value: 4 bar.",
+  "supported": true,
+  "note": "restates a table row"
+ },
+ {
+  "claim": "The maximum inlet pressure is 4 bar.",
+  "evidence": "Parameter: Maximum head; Value: 42 metres.\nParameter: Maximum inlet pressure; Value: 4 bar.",
+  "supported": true,
+  "note": "restates a table row"
+ },
+ {
+  "claim": "The maximum inlet pressure is 6 bar.",
+  "evidence": "Parameter: Maximum head; Value: 42 metres.\nParameter: Maximum inlet pressure; Value: 4 bar.",
+  "supported": false,
+  "note": "wrong number"
+ },
+ {
+  "claim": "The maximum head is 42 metres and the pump weighs 9 kg.",
+  "evidence": "Parameter: Maximum head; Value: 42 metres.\nParameter: Maximum inlet pressure; Value: 4 bar.",
+  "supported": false,
+  "note": "adds a number that is not there"
+ },
+ {
+  "claim": "The default polling interval is 30 seconds.",
+  "evidence": "The default interval is 30 seconds and the shortest allowed interval is 5 seconds.",
+  "supported": true,
+  "note": "paraphrase with the same facts"
+ },
+ {
+  "claim": "The shortest polling interval is 5 seconds.",
+  "evidence": "The default interval is 30 seconds and the shortest allowed interval is 5 seconds.",
+  "supported": true,
+  "note": "paraphrase with the same facts"
+ },
+ {
+  "claim": "The default polling interval is 5 seconds.",
+  "evidence": "The default interval is 30 seconds and the shortest allowed interval is 5 seconds.",
+  "supported": false,
+  "note": "numbers swapped between two facts: every number is present, so a lexical judge passes it"
+ },
+ {
+  "claim": "The seal kit part number is HS-220.",
+  "evidence": "Replace the mechanical seal every 5 years or after any dry running event. The seal kit part number is HS-220.",
+  "supported": true,
+  "note": "exact quote"
+ },
+ {
+  "claim": "The seal kit part number is HS-112.",
+  "evidence": "Replace the mechanical seal every 5 years or after any dry running event. The seal kit part number is HS-220.",
+  "supported": false,
+  "note": "wrong part number"
+ },
+ {
+  "claim": "Replace the mechanical seal every 5 years.",
+  "evidence": "Replace the mechanical seal every 5 years or after any dry running event. The seal kit part number is HS-220.",
+  "supported": true,
+  "note": "partial quote"
+ },
+ {
+  "claim": "Replace the seal every 5 years and lubricate the bearings yearly.",
+  "evidence": "Replace the mechanical seal every 5 years or after any dry running event. The seal kit part number is HS-220.",
+  "supported": false,
+  "note": "adds advice that is not there"
+ },
+ {
+  "claim": "The factory address is 192.168.10.40.",
+  "evidence": "From the factory the controller uses the static address 192.168.10.40 with subnet mask 255.255.255.0.",
+  "supported": true,
+  "note": "restates the address"
+ },
+ {
+  "claim": "The factory address is 192.168.1.40.",
+  "evidence": "From the factory the controller uses the static address 192.168.10.40 with subnet mask 255.255.255.0.",
+  "supported": false,
+  "note": "wrong address"
+ },
+ {
+  "claim": "Remote shell access switches itself off after 8 hours.",
+  "evidence": "Remote shell access is disabled by default. Enable it under Security, then Remote access, and it switches itself off again after 8 hours.",
+  "supported": true,
+  "note": "restates the timeout"
+ },
+ {
+  "claim": "Remote shell access is enabled by default.",
+  "evidence": "Remote shell access is disabled by default. Enable it under Security, then Remote access, and it switches itself off again after 8 hours.",
+  "supported": false,
+  "note": "negation flipped: same words, opposite meaning"
+ },
+ {
+  "claim": "Dry running for more than 60 seconds damages the mechanical seal.",
+  "evidence": "Never run the pump dry. Dry running for more than 60 seconds damages the mechanical seal and voids the seal guarantee.",
+  "supported": true,
+  "note": "exact quote"
+ },
+ {
+  "claim": "Dry running voids the motor warranty after 30 seconds.",
+  "evidence": "Never run the pump dry. Dry running for more than 60 seconds damages the mechanical seal and voids the seal guarantee.",
+  "supported": false,
+  "note": "wrong number and wrong part"
+ },
+ {
+  "claim": "The pump can run dry safely for a few minutes.",
+  "evidence": "Never run the pump dry. Dry running for more than 60 seconds damages the mechanical seal and voids the seal guarantee.",
+  "supported": false,
+  "note": "contradicts the evidence"
+ }
+]

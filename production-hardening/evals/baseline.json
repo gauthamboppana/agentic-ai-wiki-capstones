@@ -1,0 +1,9 @@
+{
+ "injection_block_rate": 1.0,
+ "trace_coverage": 1.0,
+ "trajectory_pass_rate": 1.0,
+ "resolved": 20,
+ "credits_per_resolved": 6.4341,
+ "injection_cases": 16,
+ "issues": 20
+}
