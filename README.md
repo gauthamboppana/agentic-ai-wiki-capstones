@@ -1,6 +1,6 @@
-# Gen AI Academy capstones: reference solutions
+# AgenticAIWiki capstones: reference solutions
 
-Reference solutions for the four Gen AI Academy capstone projects. Each folder is a complete, runnable Python project with tests that check the capstone's acceptance targets.
+Reference solutions for the four AgenticAIWiki capstone projects. Each folder is a complete, runnable Python project with tests that check the capstone's acceptance targets.
 
 | Capstone | Folder | What it builds |
 |---|---|---|
@@ -9,7 +9,7 @@ Reference solutions for the four Gen AI Academy capstone projects. Each folder i
 | 3. Stateful multi-agent reviewer | [`multi-agent-reviewer`](multi-agent-reviewer) | Planner, investigator, fixer and critic over MCP tools, with checkpoints and an approval gate |
 | 4. Production hardening suite | [`production-hardening`](production-hardening) | Tracing, caching and a model cascade, guardrails, dual-LLM separation, an audit log and a CI eval gate |
 
-Every guide, with milestones, hints and checkpoints, is on the Gen AI Academy site under Capstones. Try each milestone yourself before you read the code here.
+Every guide, with milestones, hints and checkpoints, is on the AgenticAIWiki site (https://agenticaiwiki.com) under Capstones. Try each milestone yourself before you read the code here.
 
 ## Run one
 
